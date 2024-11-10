@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lessons for Biodiversity Project",
+    "section": "",
+    "text": "Welcome to our webpage!\nThis website is to help store code for specific lessons, so that the students can easily access the script. Our students will be using the programming language python, so all the scripts will be using that format.\n\n\n\nBio/Diversity Project Logo"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi, we are the Biodiversity interns for the school year 2024-2025! Our names are Akira, Mercedes, and Lauren, and we come from a variety of different majors with the goal of teaching K-12 students Data Science."
+  },
+  {
+    "objectID": "lesson_6.html",
+    "href": "lesson_6.html",
+    "title": "Lesson 6",
+    "section": "",
+    "text": "In this lesson, we will be learning about native, non-native, and invasive species. We will be using a python script to guide us through our coding activity."
+  },
+  {
+    "objectID": "lesson_6_code.html#step-one",
+    "href": "lesson_6_code.html#step-one",
+    "title": "Lesson_6_Code",
+    "section": "Step One",
+    "text": "Step One\nRefresher how can we print a message into our terminal?\nFor this example, type your name into your print statement.\n\nprint('Arnold')\n\nArnold"
+  },
+  {
+    "objectID": "lesson_6_code.html#step-one-1",
+    "href": "lesson_6_code.html#step-one-1",
+    "title": "Lesson_6_Code",
+    "section": "Step One",
+    "text": "Step One\n\nprint('Hello World')\n\nHello World"
+  },
+  {
+    "objectID": "lesson_6_code.html#step-two",
+    "href": "lesson_6_code.html#step-two",
+    "title": "Lesson_6_Code",
+    "section": "Step Two",
+    "text": "Step Two\nWe have to have import pandas. Pandas is a library in python that allows us to create, load, and adjust data sets.\n\n\nShow the code\nimport pandas as pd\n\nspecies = pd.DataFrame({'species': ['Buffelgrass'] * 4 + \n['Yellow BlueStem'] * 4 + \n['Saguro Cactus'] * 4 + \n['Palo Verde'] *4 + \n['Canyon Towhee'] * 4 + \n['Feral Swine'] * 4 + \n['Bullfrog'] * 4 , \n\n'populationSize':\n\n[1980,3990,7950,15890,105,295,915,2710,1700,1731,1800,1871,2002,2098,2151,2198,7000,6975,5820,5000,3809,4021,5321,6321,495,705,860,1045],\n\n'speciesType':\n['invasive'] * 8 +\n['non-invasive'] * 12 +\n['invasive'] * 8,\n\n'year': \n[2014,2015,2016,2017,2014,2015,2016,2017,2014,2015,2016,2017,2014,2015,2016,2017,2014,2015,2016,2017,2014,2015,2016,2017,2014,2015,2016,2017]\n})\n\n\n\n\n#let's take a look at our dataset\nprint(species.to_string())\n\n\n            species  populationSize   speciesType  year\n0       Buffelgrass            1980      invasive  2014\n1       Buffelgrass            3990      invasive  2015\n2       Buffelgrass            7950      invasive  2016\n3       Buffelgrass           15890      invasive  2017\n4   Yellow BlueStem             105      invasive  2014\n5   Yellow BlueStem             295      invasive  2015\n6   Yellow BlueStem             915      invasive  2016\n7   Yellow BlueStem            2710      invasive  2017\n8     Saguro Cactus            1700  non-invasive  2014\n9     Saguro Cactus            1731  non-invasive  2015\n10    Saguro Cactus            1800  non-invasive  2016\n11    Saguro Cactus            1871  non-invasive  2017\n12       Palo Verde            2002  non-invasive  2014\n13       Palo Verde            2098  non-invasive  2015\n14       Palo Verde            2151  non-invasive  2016\n15       Palo Verde            2198  non-invasive  2017\n16    Canyon Towhee            7000  non-invasive  2014\n17    Canyon Towhee            6975  non-invasive  2015\n18    Canyon Towhee            5820  non-invasive  2016\n19    Canyon Towhee            5000  non-invasive  2017\n20      Feral Swine            3809      invasive  2014\n21      Feral Swine            4021      invasive  2015\n22      Feral Swine            5321      invasive  2016\n23      Feral Swine            6321      invasive  2017\n24         Bullfrog             495      invasive  2014\n25         Bullfrog             705      invasive  2015\n26         Bullfrog             860      invasive  2016\n27         Bullfrog            1045      invasive  2017"
+  },
+  {
+    "objectID": "lesson_6_code.html#step-3",
+    "href": "lesson_6_code.html#step-3",
+    "title": "Lesson_6_Code",
+    "section": "Step 3",
+    "text": "Step 3\nLet’s make a graph for the population changes seen in our data set. For visualization, we need to import a new library called matplot. In this library, we can access different types of graphs.\n\n#Before graphing, we should see what type of species we have.\nspeciesTypes = species['species'].unique()\nprint(speciesTypes)\n\n['Buffelgrass' 'Yellow BlueStem' 'Saguro Cactus' 'Palo Verde'\n 'Canyon Towhee' 'Feral Swine' 'Bullfrog']"
+  },
+  {
+    "objectID": "lesson_6_code.html#section",
+    "href": "lesson_6_code.html#section",
+    "title": "Lesson_6_Code",
+    "section": "",
+    "text": "print('Good Morning!')"
+  },
+  {
+    "objectID": "lesson_6_code.html#section-1",
+    "href": "lesson_6_code.html#section-1",
+    "title": "Lesson_6_Code",
+    "section": "",
+    "text": "print('Good Morning!')"
+  },
+  {
+    "objectID": "lesson_6_code.html#hello",
+    "href": "lesson_6_code.html#hello",
+    "title": "Lesson_6_Code",
+    "section": "hello",
+    "text": "hello\nprint('Good Morning!')"
+  },
+  {
+    "objectID": "lesson_6_code.html#now-that-we-know-what-species-to-work-with",
+    "href": "lesson_6_code.html#now-that-we-know-what-species-to-work-with",
+    "title": "Lesson_6_Code",
+    "section": "Now that we know what species to work with…",
+    "text": "Now that we know what species to work with…\nLet’s pick some species to work with! We need to filter our data, so that we can work with the right data.\n\n\nShow the code\n#we will now pick three species in our dataset\nspecies_one = 'Buffelgrass'\nspecies_two = 'Yellow BlueStem'\nspecies_three = 'Saguro Cactus'\n\n#since we are working with alot of data\n#we have to filter it to the data we want\nspecies_copy = species.copy()\n\nfiltered_data = species_copy[species_copy['species'] == species_one].copy()\n\nfiltered_data_2 = species_copy[species_copy['species'] == species_two].copy()\n\nfiltered_data_3 = species_copy[species_copy['species'] == species_three].copy()\n\n# let's check if we selected the right data\nprint(filtered_data.head())\n#\nprint('-------------------------------------------------------------------')\nprint(filtered_data_2.head())\nprint('-------------------------------------------------------------------')\nprint(filtered_data_3.head())\nprint('-------------------------------------------------------------------')\n\n\n       species  populationSize speciesType  year\n0  Buffelgrass            1980    invasive  2014\n1  Buffelgrass            3990    invasive  2015\n2  Buffelgrass            7950    invasive  2016\n3  Buffelgrass           15890    invasive  2017\n-------------------------------------------------------------------\n           species  populationSize speciesType  year\n4  Yellow BlueStem             105    invasive  2014\n5  Yellow BlueStem             295    invasive  2015\n6  Yellow BlueStem             915    invasive  2016\n7  Yellow BlueStem            2710    invasive  2017\n-------------------------------------------------------------------\n          species  populationSize   speciesType  year\n8   Saguro Cactus            1700  non-invasive  2014\n9   Saguro Cactus            1731  non-invasive  2015\n10  Saguro Cactus            1800  non-invasive  2016\n11  Saguro Cactus            1871  non-invasive  2017\n-------------------------------------------------------------------"
+  },
+  {
+    "objectID": "lesson_6_code.html#our-filtered-data-set-matches-what-species-we-selected.-lets-make-a-bar-chart",
+    "href": "lesson_6_code.html#our-filtered-data-set-matches-what-species-we-selected.-lets-make-a-bar-chart",
+    "title": "Lesson_6_Code",
+    "section": "Our filtered data set matches what species we selected. Let’s make a bar chart!",
+    "text": "Our filtered data set matches what species we selected. Let’s make a bar chart!\n\n\nShow the code\n#importing visualization library\nimport matplotlib.pyplot as plt\n\nfig, ax = plt.subplots()\n\nfiltered_data.plot.bar(x = 'species', y = 'populationSize',  rot = 0 , ax =ax, color ='blue', label = 'Buffelgrass')\n\nfiltered_data_2.plot.bar(x = 'species', y = 'populationSize',  rot = 0, ax = ax, color ='red', label = 'Yellow Bluestem')\n\nfiltered_data_3.plot.bar(x = 'year', y = 'populationSize',  rot = 0, ax = ax, color ='green', label ='Saguaro Catcus')\n\n\n#let's add labels to our graph\nax.set_xlabel('Year')\nax.set_ylabel('Population Size')\nax.set_title('Population Size Over Time')\n\n\nText(0.5, 1.0, 'Population Size Over Time')"
+  },
+  {
+    "objectID": "lesson_6_code.html#step-4",
+    "href": "lesson_6_code.html#step-4",
+    "title": "Lesson_6_Code",
+    "section": "Step 4",
+    "text": "Step 4\nWe are going to now look at two species, Feral Swine (an invasive species) and Canyon Towhee (a native species), and see how these populations change over time."
+  },
+  {
+    "objectID": "lesson_6_code.html#lets-graph-these-populations",
+    "href": "lesson_6_code.html#lets-graph-these-populations",
+    "title": "Lesson_6_Code",
+    "section": "Let’s graph these populations…",
+    "text": "Let’s graph these populations…\n\n\nShow the code\n# Define the two species we want to compare\nswine = 'Feral Swine'\nbird = 'Canyon Towhee'\n\n# Filter the data for the two species\nswine_data = species[species['species'] == swine].copy()\nbird_data = species[species['species'] == bird].copy()\n\n\n# Visualize the data as a line plot\nfig, ax2 = plt.subplots(figsize=(10, 6))\n\n# Plot Feral Swine population\nax2.plot(swine_data['year'], swine_data['populationSize'],\n         color='red', linewidth=2, marker='o', label='Feral Swine')\n\n# Plot Canyon Towhee population\nax2.plot(bird_data['year'], bird_data['populationSize'],\n         color='blue', linewidth=2, marker='s', label='Canyon Towhee')\n\n# Add labels and title to the plot\nax2.set_xlabel('Year')\nax2.set_ylabel('Population Size')\nax2.set_title('Population Size Over Time: Feral Swine vs Canyon Towhee')\n\n# Add a legend to differentiate between species\nax2.legend(title=\"Species\")\n\n# Show the plot\nplt.show()"
+  },
+  {
+    "objectID": "lesson_6_code.html#background-about-feral-swine",
+    "href": "lesson_6_code.html#background-about-feral-swine",
+    "title": "Lesson_6_Code",
+    "section": "Background about Feral Swine",
+    "text": "Background about Feral Swine\nFeral swine are opportunistic omnivores, meaning they eat whatever they can find. Their diet is incredibly diverse and includes both plants and animals. They have a strong preference for eggs, especially those of ground-nesting birds and they often destroy these nests to consume eggs. Beyond eggs, feral swine will also prey on small mammals and amphibians. Additionally, feral swine consume a wide range of vegetation, from fruits, nuts, and seeds to grasses and berries, and even raid agricultural crops like corn."
+  }
+]
